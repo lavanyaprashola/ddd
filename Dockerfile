@@ -14,4 +14,4 @@ RUN amazon-linux-extras install java-openjdk11 -y
 
 COPY ./dptweb-1.0.war /opt/apache-tomcat-9.0.62/webapps/
 
-CMD ["/opt/apache-tomcat-9.0.60/bin/catalina.sh", "run"]
+CMD ["/opt/apache-tomcat-9.0.62/bin/catalina.sh", "run"]
